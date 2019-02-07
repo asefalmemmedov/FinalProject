@@ -1,0 +1,35 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+#header {
+    background: url(../img/top-bg.png) no-repeat center center;
+    background-size: cover;
+    /* height: 160px; */
+    /* width: 100%; */
+    
+}
+ 
+/* #nav-bar{
+
+    margin-top: -10px;
+    position: absolute;
+} */
+
+a{
+    cursor: pointer;
+}
+
+
+/* #text{
+    padding-top: 20px;
+} */
+/* #bottom{
+    background: rgb(138, 132, 132);
+
+} */
+
+
