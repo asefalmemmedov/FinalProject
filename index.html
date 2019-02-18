@@ -11,43 +11,70 @@
 
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
     crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous"> -->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+        integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <link href="css/navbar.css" rel="stylesheet">
+
     <title>Karabakh.az</title>
 </head>
 
 <body>
 
     <!-- Header Section -->
-    <section id="header" class="container-fluid ">
+    <section id="header" class="container-fluid  ">
         <div class="container">
-            <div class="row pt-5 pt-md-5  pb-md-5 px-md-3">
-                <div class="col-lg-7 col-md-12 col-sm-12 col-12 d-inline-flex">
-                    <div><img src="img/logo.png" alt="" class="align-self-center"></div>
-                    <p class=" text-light col-md-6 text-uppercase"> Azərbaycan Respublikası Dağlıq
-                        Qarabağ bölgəsinin Azərbaycanlı İcması</p>
+            <div class=" row pt-5 pt-md-5  pb-md-5 px-md-3 ">
+                <div class="col-lg-7 col-md-12 col-sm-12 col-12">
+                    <div class="row ">
+                        <div class="col-4 col-sm-4 col-md-3 col-lg-3 col-xl-3 ">
+                            <img src="img/logo.png" alt="Logo" class="img-fluid">
+                        </div>
+                        <div class="col-8 col-sm-8 col-md-9 col-lg-9 col-xl-9">
+                            <p class=" nav brand head text-uppercase">
+                                Azərbaycan Respublikası <br> Dağlıq
+                                Qarabağ bölgəsinin </br>Azərbaycanlı İcması</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-5 col-md-12 col-sm-12 col-12 px-0 pb-1 d-flex  flex-lg-row flex-column justify-content-lg-around">
-                    <div class="d-flex flex-lg-row flex-row justify-content-around align-items-center">
-                        <i class="fab fa-facebook-f text-white fa-2x pl-lg-3"></i>
-                        <i class="fab fa-youtube text-white fa-2x pl-lg-3"></i>
-                        <i class="fab fa-instagram text-white fa-2x pl-lg-3"></i>
+                <div class="col-lg-5 col-md-12 col-sm-12 col-12 ">
+                    <div class="row">
+                        <div class="col-5">
+                            <div class="icon">
+                                <a href="#"><i class="fab fa-facebook-f text-white fa-1x pl-lg-3"></i></a>
+                                <a href="#"> <i class="fab fa-youtube text-white fa-1x pl-lg-3"></i></a>
+                                <a href="#"><i class="fab fa-instagram text-white fa-1x pl-lg-3"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-7 col-sm-7">
+                            <div class="language ">
+                                <a id="az" class="active" href="#">az</a>
+                                <a id="en" href="#">en</a>
+                                <a id="ru" href="#">ru</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="d-flex flex-row justify-content-between justify-sm-content-around  align-items-center p-lg-0 pt-3">
-                        <button class="navbar-toggler  d-sm-block  d-lg-none" type="button" data-toggle="collapse"
-                            data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="fas fa-bars text-light fa-2x"></span>
-                        </button>
-                        <form class="form-inline ">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row">
+                                <button class="navbar-toggler  d-sm-block  d-lg-none" type="button" data-toggle="collapse"
+                                    data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                                    aria-label="Toggle navigation">
+                                    <span class="fas fa-bars text-light fa-2x"></span>
+                                </button>
+                                <div class="col-8">
+                                    <form class="form-inline search">
+                                        <input class="form-control search " type="" placeholder="Search" aria-label="Search">
+                                        <i class="fas fa-search "></i>
+                                    </form>
+                                </div>
 
-                            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-                        </form>
-
+                            </div>
+                        </div>
                     </div>
-
                 </div>
             </div>
 
@@ -56,311 +83,253 @@
 
     <!-- Navbar Section -->
 
-    <section id="" class="container-fluid sticky-top bg-light   p-0 mb-0 pt-0 rounded">
+    <section id="" class="container-fluid  bg-light   p-0 mb-0 pt-0 rounded  ">
+        <div class="color">
+            <div class="container ">
+                <div class="row ">
 
-        <div class="container ">
-            <div class="row  ">
-                <nav class="navbar navbar-expand-lg " role="navigation">
+                    <nav class="navbar navbar-expand-lg btco-hover-menu  ">
+                        <div class="collapse navbar-collapse" id="navbarCollapse">
+                            <ul class="navbar-nav hover ">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html"> <span class="fa fa-fw fa-home"></span></a>
+                                </li>
+                                <li class="nav-item dropdown ">
+                                    <a class="dropdown-item dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false">Azərbaycan</a>
 
-                    <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href=""> <span class="fa fa-fw fa-home"></span></a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link" id="dropdown2" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false">Azərbaycan</a>
-                                <ul class="dropdown-menu" aria-labelledby="dropdown2">
-                                    <li class="dropdown-item"><a href="#">Tarix</a></li>
-                                    <li class="dropdown-item"><a href="#">Ərazi<a></li>
-                                    <li class="dropdown-item"><a href="#">Əhali<a></li>
-                                    <li class="dropdown-item"><a href="#">Dövlət rəmzləri <a></li>
-                                    <li class="dropdown-item"><a href="#">Konstitusiya<a></li>
-                                    <li class="dropdown-item"><a href="#">Bölgələr<a></li>
+                                    <ul class="dropdown-menu hover" aria-labelledby="navbarDropdownMenuLink ">
+                                        <li><a class="dropdown-item" href="tarix.html">Tarix</a></li>
+                                        <li><a class="dropdown-item" href="erazi.html">Ərazi</a></li>
+                                        <li><a class="dropdown-item" href="">Əhali</a></li>
+                                        <li><a class="dropdown-item" href="dovletremzleri.html">Dövlət rəmzləri </a></li>
+                                        <li><a class="dropdown-item" href="konstitusiya.html">Konstitusiya</a></li>
+                                        <li><a class="dropdown-item" href="bolgeler.html">Bölgələr</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-item dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false">Haqqımızda</a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink hover">
+                                        <li><a class="dropdown-item" href="umumimelumat.html">Ümumi məlumat</a></li>
+                                        <li><a class="dropdown-item" href="meqsedvefealiyyet.html">Məqsəd və fəaliyyət</a></li>
+                                        <li><a class="dropdown-item" href="struktur.html">Struktur</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-item dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false">Tədbirlər</a>
+                                    <ul class="dropdown-menu hover" aria-labelledby="navbarDropdownMenuLink ">
+                                        <li><a class="dropdown-item" href="yerlitedbirler.html">Yerli tədbirlər</a></li>
+                                        <li><a class="dropdown-item" href="beynelxalqtedbirler.html">Beynəlxalq tədbirlər</a></li>
+                                        <li><a class="dropdown-item" href="gorusler.html">Görüşlər</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-item dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false">Kitabxana</a>
+                                    <ul class="dropdown-menu hover" aria-labelledby="navbarDropdownMenuLink ">
+                                        <li><a class="dropdown-item" href="kitablar.html">Kitablar</a></li>
+                                        <li><a class="dropdown-item" href="meqaleler.html">Məqalələr</a></li>
+                                        <li><a class="dropdown-item dropdown-toggle">Sənədlər</a>
+                                            <ul class="dropdown-menu hover">
+                                                <li>
+                                                    <a class="dropdown-item dropdown-toggle ">BMT</a>
+                                                    <ul class="dropdown-menu hover">
+                                                        <li> <a class="dropdown-item dropdown-toggle">Təhlükəsizlik
+                                                                Şurası</a>
 
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link" id="dropdown2" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false">Haqqımızda</a>
-                                <ul class="dropdown-menu" aria-labelledby="dropdown2">
-                                    <li class="dropdown-item"><a href="#">Ümumi məlumat</a></li>
-                                    <li class="dropdown-item"><a href="#">Məqsəd və fəaliyyət<a></li>
-                                    <li class="dropdown-item"><a href="#">Struktur<a></li>
-                                </ul>
-                            </li>
+                                                            <!--  <ul class="dropdown-menu" aria-labelledby="dropdown111">
+                                                                <li><a class="dropdown-item" href="#">Qətnamələr</a></li>
+                                                                <li><a class="dropdown-item" href="#">Təhlükəsizlik
+                                                                        Şurası Sədrinin
+                                                                        bəyanatları</a></li>
+                                                            </ul> 
+                                                        </li>
+                                                        <li> <a class="dropdown-item ">Baş
+                                                                Assambleya</a>
+                                                             <ul class="dropdown-menu" aria-labelledby="dropdown111">
+                                                                <li><a class="dropdown-item" href="#">Qətnamələr</a></li>
+                                                            </ul> -->
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li><a class="dropdown-item dropdown-toggle">ATƏT</a>
+                                                    <ul class="dropdown-menu hover">
+                                                        <li> <a class="dropdown-item">Zirvə
+                                                                Toplantıları</a>
+                                                        </li>
+                                                        <li> <a class="dropdown-item">Nazirlər
+                                                                Şurası</br> Qərarları</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li><a class="dropdown-item dropdown-toggle">Avropa İttifaqı</a>
+                                                    <ul class="dropdown-menu hover">
+                                                        <li><a class="dropdown-item">Avropa
+                                                                Parlamenti</a>
 
+                                                        </li>
+                                                        <li><a class="dropdown-item">Dağlıq
+                                                                Qarabağa</br> dair bəyanatlar</a>
 
-                            <li class="nav-item dropdown">
-                                <a class="nav-link" id="dropdown2" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false">Tədbirlər</a>
-                                <ul class="dropdown-menu" aria-labelledby="dropdown2">
-                                    <li class="dropdown-item"><a href="#">Yerli tədbirlər</a></li>
-                                    <li class="dropdown-item"><a href="#">Beynəlxalq tədbirlər<a></li>
-                                    <li class="dropdown-item"><a href="#">Görüşlər<a></li>
-                                </ul>
-                            </li>
+                                                        </li>
+                                                        <li> <a class="dropdown-item">Bülletenlər</a>
 
+                                                        </li>
 
-                            <li class="nav-item dropdown">
-                                <a class="nav-link" id="dropdown2" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false">Kitabxana</a>
-                                <ul class="dropdown-menu" aria-labelledby="dropdown2">
-                                    <li class="dropdown-item"><a href="#">Kitablar</a></li>
-                                    <li class="dropdown-item"><a href="#">Məqalələr<a></li>
-                                    <li class="dropdown-item dropdown">
-                                        <a class="dropdown-toggle " id="dropdown2-1" data-toggle="dropdown"
-                                            aria-haspopup="true" aria-expanded="false">Sənədlər</a>
-                                        <ul style="top: 20px"class="dropdown-menu" aria-labelledby="dropdown2-1">
-                                            <li class="dropdown-item dropdown">
-                                                <a class="dropdown-toggle" id="dropdown2-1-1" data-toggle="dropdown"
-                                                    aria-haspopup="true" aria-expanded="false">BMT</a>
-                                                <ul class="dropdown-menu" aria-labelledby="dropdown2-1-1">
-                                                    <li class="dropdown-item dropdown">
-                                                        <a class="dropdown-toggle" id="dropdown111" data-toggle="dropdown"
-                                                            aria-haspopup="true" aria-expanded="false">Təhlükəsizlik
-                                                            Şurası</a>
-                                                        <ul class="dropdown-menu" aria-labelledby="dropdown111">
-                                                            <li class="dropdown-item"><a href="#">Qətnamələr</a></li>
-                                                            <li class="dropdown-item"><a href="#">Təhlükəsizlik Şurası
-                                                                    Sədrinin bəyanatları</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li class="dropdown-item dropdown">
-                                                        <a class="dropdown-toggle" id="dropdown111" data-toggle="dropdown"
-                                                            aria-haspopup="true" aria-expanded="false">Baş Assambleya</a>
-                                                        <ul class="dropdown-menu" aria-labelledby="dropdown111">
-                                                            <li class="dropdown-item"><a href="#">Qətnamələr</a></li>
-                                                        </ul>
-                                                    </li>
+                                                    </ul>
+                                                </li>
 
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown-item dropdown">
-                                                <a class="dropdown-toggle" id="dropdown2-1-1" data-toggle="dropdown"
-                                                    aria-haspopup="true" aria-expanded="false">ATƏT</a>
-                                                <ul class="dropdown-menu" aria-labelledby="dropdown2-1-1">
-                                                    <li class="dropdown-item dropdown">
-                                                        <a id="dropdown111" data-toggle="dropdown" aria-haspopup="true"
-                                                            aria-expanded="false">Zirvə Toplantıları</a>
+                                                <li><a class="dropdown-item dropdown-toggle">Avropa Şurası</a>
+                                                    <ul class="dropdown-menu hover">
+                                                        <li> <a class="dropdown-item">Nazirlər
+                                                                Komitəsi</a>
+                                                        </li>
+                                                        <li> <a class="dropdown-item">Parlament</br>
+                                                                Assambleyası</a>
+                                                        </li>
+                                                        <li> <a class="dropdown-item">Bülletenlər</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
 
-                                                    </li>
-                                                    <li class="dropdown-item dropdown">
-                                                        <a id="dropdown111" data-toggle="dropdown" aria-haspopup="true"
-                                                            aria-expanded="false">Nazirlər Şurası Qərarları</a>
-
-                                                    </li>
-                                                </ul>
-                                            </li>
-
-                                            <li class="dropdown-item dropdown">
-                                                <a class="dropdown-toggle" id="dropdown2-1-1" data-toggle="dropdown"
-                                                    aria-haspopup="true" aria-expanded="false">Avropa İttifaqı</a>
-                                                <ul class="dropdown-menu" aria-labelledby="dropdown2-1-1">
-                                                    <li class="dropdown-item dropdown">
-                                                        <a id="dropdown111" data-toggle="dropdown" aria-haspopup="true"
-                                                            aria-expanded="false">Avropa Parlamenti</a>
-
-                                                    </li>
-                                                    <li class="dropdown-item dropdown">
-                                                        <a id="dropdown111" data-toggle="dropdown" aria-haspopup="true"
-                                                            aria-expanded="false">Dağlıq Qarabağa dair bəyanatlar</a>
-
-                                                    </li>
-                                                    <li class="dropdown-item dropdown">
-                                                        <a id="dropdown111" data-toggle="dropdown" aria-haspopup="true"
-                                                            aria-expanded="false">Bülletenlər</a>
-
-                                                    </li>
-
-                                                </ul>
-                                            </li>
-
-                                            <li class="dropdown-item dropdown">
-                                                <a class="dropdown-toggle" id="dropdown2-1-1" data-toggle="dropdown"
-                                                    aria-haspopup="true" aria-expanded="false">Avropa Şurası</a>
-                                                <ul class="dropdown-menu" aria-labelledby="dropdown2-1-1">
-                                                    <li class="dropdown-item dropdown">
-                                                        <a id="dropdown111" data-toggle="dropdown" aria-haspopup="true"
-                                                            aria-expanded="false">Nazirlər Komitəsi</a>
-                                                    </li>
-                                                    <li class="dropdown-item dropdown">
-                                                        <a id="dropdown111" data-toggle="dropdown" aria-haspopup="true"
-                                                            aria-expanded="false">Parlament Assambleyası</a>
-                                                    </li>
-                                                    <li class="dropdown-item dropdown">
-                                                        <a id="dropdown111" data-toggle="dropdown" aria-haspopup="true"
-                                                            aria-expanded="false">Bülletenlər</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-
-                                            <li class="dropdown-item dropdown">
-                                                <a class="dropdown-toggle" id="dropdown2-1-1" data-toggle="dropdown"
-                                                    aria-haspopup="true" aria-expanded="false">NATO</a>
-                                                <ul class="dropdown-menu" aria-labelledby="dropdown2-1-1">
-                                                    <li class="dropdown-item dropdown">
-                                                        <a id="dropdown111" data-toggle="dropdown" aria-haspopup="true"
-                                                            aria-expanded="false">Yekun kommünikelər</a>
-                                                    </li>
-                                                    <li class="dropdown-item dropdown">
-                                                        <a id="dropdown111" data-toggle="dropdown" aria-haspopup="true"
-                                                            aria-expanded="false">Bəyanatlar</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
+                                                <li><a class="dropdown-item dropdown-toggle">NATO</a>
+                                                    <ul class="dropdown-menu hover">
+                                                        <li> <a class="dropdown-item">Yekun
+                                                                kommünikelər</a>
+                                                        </li>
+                                                        <li> <a class="dropdown-item">Bəyanatlar</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
 
 
-                                            <li class="dropdown-item dropdown">
-                                                <a class="dropdown-toggle" id="dropdown2-1-1" data-toggle="dropdown"
-                                                    aria-haspopup="true" aria-expanded="false">İslam Əməkdaşlıq
-                                                    Təşkilatı</a>
-                                                <ul class="dropdown-menu" aria-labelledby="dropdown2-1-1">
-                                                    <li class="dropdown-item dropdown">
-                                                        <a id="dropdown111" data-toggle="dropdown" aria-haspopup="true"
-                                                            aria-expanded="false">Dövlət Başçılarının Zirvə Toplantısı</a>
-                                                    </li>
-                                                    <li class="dropdown-item dropdown">
-                                                        <a id="dropdown111" data-toggle="dropdown" aria-haspopup="true"
-                                                            aria-expanded="false">Xarici İşlər Nazirlərinin Konfransı</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
+                                                <li><a class="dropdown-item dropdown-toggle">İslam Əməkdaşlıq</br>
+                                                        Təşkilatı</a>
 
-                                            <li class="dropdown-item"><a href="#">SSRİ</a></li>
-                                            <li class="dropdown-item"><a href="#">Böyük dövlətlər</a></li>
-                                            <li class="dropdown-item"><a href="#">Digər</a></li>
-                                        </ul>
-                                    </li>
+                                                    <ul class="dropdown-menu hover">
+                                                        <li> <a class="dropdown-item">Dövlət
+                                                                Başçılarının</br> Zirvə Toplantısı</a>
+                                                        </li>
+                                                        <li> <a class="dropdown-item">Xarici
+                                                                İşlər Nazirlərinin</br> Konfransı</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
 
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link" id="dropdown2" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false">Media</a>
-                                <ul class="dropdown-menu" aria-labelledby="dropdown2">
-                                    <li class="dropdown-item"><a href="#">Xəbərlər</a></li>
-                                    <li class="dropdown-item"><a href="#">Press-relizlər<a></li>
+                                                <li><a class="dropdown-item" href="#">SSRİ</a></li>
+                                                <li><a class="dropdown-item" href="#">Böyük dövlətlər</a></li>
+                                                <li><a class="dropdown-item" href="#">Digər</a></li>
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-item dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false">Media</a>
+                                    <ul class="dropdown-menu hover" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="xeberler.html">Xəbərlər</a></li>
+                                        <li><a class="dropdown-item" href="pres-lelizler.html">Press-relizlər</a></li>
 
 
 
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link" id="dropdown2" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false">Qarabağ</a>
-                                <ul class="dropdown-menu" aria-labelledby="dropdown2">
-                                    <li class="dropdown-item"><a href="#">Tarix</a></li>
-                                    <li class="dropdown-item"><a href="#">Mədəniyyət<a></li>
-                                    <li class="dropdown-item"><a href="#">İnzibati ərazi bölgüsü<a></li>
-                                    <li class="dropdown-item dropdown">
-                                        <a class="dropdown-toggle" id="dropdown2-1-1" data-toggle="dropdown"
-                                            aria-haspopup="true" aria-expanded="false">Bölgələr</a>
-                                        <ul class="dropdown-menu" aria-labelledby="dropdown2-1-1">
-                                            <li class="dropdown-item dropdown">
-                                                <a id="dropdown111" data-toggle="dropdown" aria-haspopup="true"
-                                                    aria-expanded="false">Şuşa</a>
-                                            </li>
-                                            <li class="dropdown-item dropdown">
-                                                <a id="dropdown111" data-toggle="dropdown" aria-haspopup="true"
-                                                    aria-expanded="false">Ağdam</a>
-                                            </li>
-                                            <li class="dropdown-item dropdown">
-                                                <a id="dropdown111" data-toggle="dropdown" aria-haspopup="true"
-                                                    aria-expanded="false">Kəlbəcər</a>
-                                            </li>
-                                            <li class="dropdown-item dropdown">
-                                                <a id="dropdown111" data-toggle="dropdown" aria-haspopup="true"
-                                                    aria-expanded="false">Xocalı</a>
-                                            </li>
-                                            <li class="dropdown-item dropdown">
-                                                <a id="dropdown111" data-toggle="dropdown" aria-haspopup="true"
-                                                    aria-expanded="false">Xankəndi</a>
-                                            </li>
-                                            <li class="dropdown-item dropdown">
-                                                <a id="dropdown111" data-toggle="dropdown" aria-haspopup="true"
-                                                    aria-expanded="false">Laçın</a>
-                                            </li>
-                                            <li class="dropdown-item dropdown">
-                                                <a id="dropdown111" data-toggle="dropdown" aria-haspopup="true"
-                                                    aria-expanded="false">Xocavənd</a>
-                                            </li>
-                                            <li class="dropdown-item dropdown">
-                                                <a id="dropdown111" data-toggle="dropdown" aria-haspopup="true"
-                                                    aria-expanded="false">Qubadlı</a>
-                                            </li>
-                                            <li class="dropdown-item dropdown">
-                                                <a id="dropdown111" data-toggle="dropdown" aria-haspopup="true"
-                                                    aria-expanded="false">Zəngilan</a>
-                                            </li>
-                                            <li class="dropdown-item dropdown">
-                                                <a id="dropdown111" data-toggle="dropdown" aria-haspopup="true"
-                                                    aria-expanded="false">Cəbrayıl</a>
-                                            </li>
-                                            <li class="dropdown-item dropdown">
-                                                <a id="dropdown111" data-toggle="dropdown" aria-haspopup="true"
-                                                    aria-expanded="false">Füzuli</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown-item"><a href="#">Xəritələr<a></li>
-                                </ul>
-                            </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-item dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false">Qarabağ</a>
+                                    <ul class="dropdown-menu hover" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="qarabag-tarix.html">Tarix</a></li>
+                                        <li><a class="dropdown-item" href="#">Mədəniyyət</a></li>
+                                        <li><a class="dropdown-item" href="#">İnzibati ərazi</br> bölgüsü</a></li>
+                                        <li><a class="dropdown-item dropdown-toggle">Bölgələr</a>
+                                            <ul class="dropdown-menu col-md-2 hover">
+                                                <li><a class="dropdown-item">Şuşa</a>
+                                                </li>
+                                                <li><a class="dropdown-item">Ağdam</a>
+                                                </li>
+                                                <li><a class="dropdown-item">Kəlbəcər</a>
+                                                </li>
+                                                <li><a class="dropdown-item">Xocalı</a>
+                                                </li>
+                                                <li><a class="dropdown-item">Xankəndi</a>
+                                                </li>
+                                                <li><a class="dropdown-item">Laçın</a>
+                                                </li>
+                                                <li><a class="dropdown-item">Xocavənd</a>
+                                                </li>
+                                                <li><a class="dropdown-item">Qubadlı</a>
+                                                </li>
+                                                <li><a class="dropdown-item">Zəngilan</a>
+                                                </li>
+                                                <li><a class="dropdown-item">Cəbrayıl</a>
+                                                </li>
+                                                <li><a class="dropdown-item">Füzuli</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Xəritələr</a></li>
+                                    </ul>
+                                </li>
 
-                            <li class="nav-item dropdown">
-                                <a class="nav-link" id="dropdown2" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false">Erməni təcavüzü</a>
-                                <ul class="dropdown-menu" aria-labelledby="dropdown2">
-                                    <li class="dropdown-item"><a href="#">Köçürülmə</a></li>
-                                    <li class="dropdown-item"><a href="#">1905-1906<a></li>
-                                    <li class="dropdown-item"><a href="#">1918-1920<a></li>
-                                    <li class="dropdown-item"><a href="#">1921-1923<a></li>
-                                    <li class="dropdown-item"><a href="#">1945-1985<a></li>
-                                    <li class="dropdown-item"><a href="#">1988-1993<a></li>
-                                    <li class="dropdown-item"><a href="#">İşğal<a></li>
-                                    <li class="dropdown-item"><a href="#">Soyqırımı<a></li>
-                                    <li class="dropdown-item"><a href="#">Erməni terrorizmi<a></li>
-                                </ul>
-                            </li>
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-item dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false">Erməni
+                                        təcavüzü</a>
+                                    <ul class="dropdown-menu hover" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Köçürülmə</a></li>
+                                        <li><a class="dropdown-item" href="#">1905-1906</a></li>
+                                        <li><a class="dropdown-item" href="#">1918-1920</a></li>
+                                        <li><a class="dropdown-item" href="#">1921-1923</a></li>
+                                        <li><a class="dropdown-item" href="#">1945-1985</a></li>
+                                        <li><a class="dropdown-item" href="#">1988-1993</a></li>
+                                        <li><a class="dropdown-item" href="#">İşğal</a></li>
+                                        <li><a class="dropdown-item" href="#">Soyqırımı</a></li>
+                                        <li><a class="dropdown-item" href="#">Erməni terrorizmi</a></li>
+                                    </ul>
+                                </li>
 
-                            <li class="nav-item dropdown">
-                                <a class="nav-link" id="dropdown2" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false">Qalereya</a>
-                                <ul class="dropdown-menu" aria-labelledby="dropdown2">
-                                    <li class="dropdown-item"><a href="#">Foto</a></li>
-                                    <li class="dropdown-item"><a href="#">Video<a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link" id="dropdown2" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false">Əlaqə</a>
-                                <ul class="dropdown-menu" aria-labelledby="dropdown2">
-                                    <li class="dropdown-item"><a href="#">Qeydiyyat</a></li>
-                                    <li class="dropdown-item"><a href="#">Əlaqə vasitələri<a></li>
-                                </ul>
-                            </li>
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-item dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false">Qalereya</a>
+                                    <ul class="dropdown-menu hover" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Foto</a></li>
+                                        <li><a class="dropdown-item" href="#">Video</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-item dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false">Əlaqə</a>
+                                    <ul class="dropdown-menu hover" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Qeydiyyat</a></li>
+                                        <li><a class="dropdown-item" href="#">Əlaqə vasitələri</a></li>
+                                    </ul>
+                                </li>
 
-                            <li class="nav-item dropdown">
-                                <a class="nav-link" id="dropdown2" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false">TƏCAVÜZ</a>
-                            </li>
-                        </ul>
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-item">TƏCAVÜZ</a>
+                                </li>
+                            </ul>
 
 
-                    </div>
+                        </div>
 
-                </nav>
+                    </nav>
+                </div>
+
             </div>
-
         </div>
+
     </section>
 
     <!-- Content Main section -->
-    <section id="content ">
+    <section id="content shadow-lg p-3 mb-5 bg-white rounded ">
         <div class="container">
-            <div class="shadow-lg p-3 mb-5 bg-white rounded">
-                <div class="row d-flex justify-content-around">
-                    <div class="col-md-12 col-12 col-sm-12 col-lg-7 col-xl-7 ">
+            <div class=" p-3 mb-5 bg-white  ">
+                <div class="row d-flex justify-content-around ">
+                    <div class="col-md-12 col-12 col-sm-12 col-lg-7 col-xl-7   ">
                         <div id="carouselExampleIndicators" class="carousel slide mt-3" data-ride="carousel">
                             <ol class="carousel-indicators">
                                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -373,13 +342,13 @@
                                     <img class="d-flex w-100  img-fluid" src="img/img2.jpg" alt="First slide">
                                 </div>
                                 <div class="carousel-item latest-news-carousel">
-                                    <img class="d-flex w-100 img-fluid" src="img/img3.jpg" alt="Second slide">
+                                    <img class="d-flex w-100 img-fluid" src="img/img2.jpg" alt="Second slide">
                                 </div>
                                 <div class="carousel-item latest-news-carousel">
                                     <img class="d-flex w-100 img-fluid" src="img/img2.jpg" alt="Third slide">
                                 </div>
                                 <div class="carousel-item latest-news-carousel">
-                                    <img class="d-flex w-100 img-fluid" src="img/img3.jpg" alt="">
+                                    <img class="d-flex w-100 img-fluid" src="img/img2.jpg" alt="">
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -394,126 +363,128 @@
                         <div class="xeber">
                             <div class="row">
                                 <div class="col-md-12 pt-5 ">
+                                    <div class="news">
+                                        <div class="card-deck">
+                                            <div class="card mb-3">
+                                                <h5 class="card-title text-center">Yeni Xeber</h5>
+                                                <img src="img/img1.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
 
-                                    <div class="card-deck">
-                                        <div class="card mb-3">
-                                            <h5 class="card-title text-center">Yeni Xeber</h5>
-                                            <img src="img/img1.jpg" class="card-img-top" alt="...">
-                                            <div class="card-body">
+                                                    <p class="card-text text-center"><a href="#">xeberler</a></p>
+                                                    <p class="card text-center" id="demo"></p>
+                                                </div>
 
-                                                <p class="card-text text-center"><a href="#">xeberler</a></p>
-                                                <p class="card text-center" id="demo"></p>
+                                            </div>
+                                            <div class="card mb-3">
+                                                <h5 class="card-title text-center">Yeni Xeber</h5>
+                                                <img src="img/img1.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+
+                                                    <p class="card-text text-center"><a href="#">xeberler</a></p>
+                                                    <p class="card text-center" id="demo"></p>
+                                                </div>
+
+                                            </div>
+
+
+                                        </div>
+                                        <div class="card-deck">
+                                            <div class="card mb-3">
+                                                <h5 class="card-title text-center">Yeni Xeber</h5>
+                                                <img src="img/img1.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+
+                                                    <p class="card-text text-center"><a href="#">xeberler</a></p>
+                                                    <p class="card text-center" id="demo"></p>
+                                                </div>
+
+                                            </div>
+                                            <div class="card mb-3">
+                                                <h5 class="card-title text-center">Yeni Xeber</h5>
+                                                <img src="img/img1.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+
+                                                    <p class="card-text text-center"><a href="#">xeberler</a></p>
+                                                    <p class="card text-center" id="demo"></p>
+                                                </div>
+
+                                            </div>
+
+
+                                        </div>
+                                        <div class="card-deck">
+
+                                            <div class="card mb-3">
+                                                <h5 class="card-title text-center">Yeni Xeber</h5>
+                                                <img src="img/img1.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+
+                                                    <p class="card-text text-center"><a href="#">xeberler</a></p>
+                                                    <p class="card text-center" id="demo"></p>
+                                                </div>
+
+                                            </div>
+                                            <div class="card mb-3">
+                                                <h5 class="card-title text-center">Yeni Xeber</h5>
+                                                <img src="img/img1.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+
+                                                    <p class="card-text text-center"><a href="#">xeberler</a></p>
+                                                    <p class="card text-center" id="demo"></p>
+                                                </div>
+
                                             </div>
 
                                         </div>
-                                        <div class="card mb-3">
-                                            <h5 class="card-title text-center">Yeni Xeber</h5>
-                                            <img src="img/img1.jpg" class="card-img-top" alt="...">
-                                            <div class="card-body">
+                                        <div class="card-deck">
 
-                                                <p class="card-text text-center"><a href="#">xeberler</a></p>
-                                                <p class="card text-center" id="demo"></p>
+                                            <div class="card mb-3">
+                                                <h5 class="card-title text-center">Yeni Xeber</h5>
+                                                <img src="img/img1.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+
+                                                    <p class="card-text text-center"><a href="#">xeberler</a></p>
+                                                    <p class="card text-center" id="demo"></p>
+                                                </div>
+
+                                            </div>
+                                            <div class="card mb-3">
+                                                <h5 class="card-title text-center">Yeni Xeber</h5>
+                                                <img src="img/img1.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+
+                                                    <p class="card-text text-center"><a href="#">xeberler</a></p>
+                                                    <p class="card text-center" id="demo"></p>
+                                                </div>
+
                                             </div>
 
                                         </div>
+                                        <div class="card-deck ">
 
+                                            <div class="card mb-3">
+                                                <h5 class="card-title text-center">Yeni Xeber</h5>
+                                                <img src="img/img1.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <p class="card-text text-center"><a href="#">xeberler</a></p>
+                                                    <p class="card text-center" id="demo"></p>
+                                                </div>
 
+                                            </div>
+                                            <div class="card mb-3">
+                                                <h5 class="card-title text-center">Yeni Xeber</h5>
+                                                <img src="img/img1.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+
+                                                    <p class="card-text text-center"><a href="#">xeberler</a></p>
+                                                    <p class="card text-center" id="demo"></p>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
                                     </div>
-                                    <div class="card-deck">
-                                        <div class="card mb-3">
-                                            <h5 class="card-title text-center">Yeni Xeber</h5>
-                                            <img src="img/img1.jpg" class="card-img-top" alt="...">
-                                            <div class="card-body">
 
-                                                <p class="card-text text-center"><a href="#">xeberler</a></p>
-                                                <p class="card text-center" id="demo"></p>
-                                            </div>
-
-                                        </div>
-                                        <div class="card mb-3">
-                                            <h5 class="card-title text-center">Yeni Xeber</h5>
-                                            <img src="img/img1.jpg" class="card-img-top" alt="...">
-                                            <div class="card-body">
-
-                                                <p class="card-text text-center"><a href="#">xeberler</a></p>
-                                                <p class="card text-center" id="demo"></p>
-                                            </div>
-
-                                        </div>
-
-
-                                    </div>
-                                    <div class="card-deck">
-
-                                        <div class="card mb-3">
-                                            <h5 class="card-title text-center">Yeni Xeber</h5>
-                                            <img src="img/img1.jpg" class="card-img-top" alt="...">
-                                            <div class="card-body">
-
-                                                <p class="card-text text-center"><a href="#">xeberler</a></p>
-                                                <p class="card text-center" id="demo"></p>
-                                            </div>
-
-                                        </div>
-                                        <div class="card mb-3">
-                                            <h5 class="card-title text-center">Yeni Xeber</h5>
-                                            <img src="img/img1.jpg" class="card-img-top" alt="...">
-                                            <div class="card-body">
-
-                                                <p class="card-text text-center"><a href="#">xeberler</a></p>
-                                                <p class="card text-center" id="demo"></p>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-                                    <div class="card-deck">
-
-                                        <div class="card mb-3">
-                                            <h5 class="card-title text-center">Yeni Xeber</h5>
-                                            <img src="img/img1.jpg" class="card-img-top" alt="...">
-                                            <div class="card-body">
-
-                                                <p class="card-text text-center"><a href="#">xeberler</a></p>
-                                                <p class="card text-center" id="demo"></p>
-                                            </div>
-
-                                        </div>
-                                        <div class="card mb-3">
-                                            <h5 class="card-title text-center">Yeni Xeber</h5>
-                                            <img src="img/img1.jpg" class="card-img-top" alt="...">
-                                            <div class="card-body">
-
-                                                <p class="card-text text-center"><a href="#">xeberler</a></p>
-                                                <p class="card text-center" id="demo"></p>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-                                    <div class="card-deck ">
-
-                                        <div class="card mb-3">
-                                            <h5 class="card-title text-center">Yeni Xeber</h5>
-                                            <img src="img/img1.jpg" class="card-img-top" alt="...">
-                                            <div class="card-body">
-                                                <p class="card-text text-center"><a href="#">xeberler</a></p>
-                                                <p class="card text-center" id="demo"></p>
-                                            </div>
-
-                                        </div>
-                                        <div class="card mb-3">
-                                            <h5 class="card-title text-center">Yeni Xeber</h5>
-                                            <img src="img/img1.jpg" class="card-img-top" alt="...">
-                                            <div class="card-body">
-
-                                                <p class="card-text text-center"><a href="#">xeberler</a></p>
-                                                <p class="card text-center" id="demo"></p>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
 
                                 </div>
                             </div>
@@ -521,20 +492,27 @@
 
                         </div>
                     </div>
-                    <div class="col-md-12 col-12 col-sm-12 col-lg-4 col-xl-4 ">
+                    <div class="col-md-12 col-12 col-sm-12 col-lg-4 col-xl-4 p-3 mb-5 ">
                         <p>Video</p>
-                        <img src="img/img3.jpg" alt="" class="img-fluid">
+                        <img src="img/img3.jpg" alt="" class="img-fluid" width="100%">
                         <div>
-                            <p class="text-center table-hover">Virtual Qeydiyyat</p>
+                            <p class="text-center table-hover pt-3"><button class="btn btn-warning "><a href="contact.html">Virtual
+                                        Qeydiyyat</a></button></p>
+
+                            <tr>
+                                <p class="text-center rounded-top btn-warning p-2">İŞĞAL OLUNMUŞ RAYONLARIMIZ</p>
+                            </tr>
+                            <tr>
                         </div>
-                        <table class="table ">
-                            <thead class="thead-light ">
-                                <tr>İŞĞAL OLUNMUŞ RAYONLARIMIZ</tr>
-                                <tr>
 
-                                    <th>Xankəndi </th>
+                        <table class="table table-bordered  ">
 
-                                    <th class="mr-auto">26.12.1991</th>
+                            <thead class="thead-light table-hover">
+
+
+                                <th> <a href="xankendi.html">Xankəndi</a> </th>
+
+                                <th>26.12.1991</th>
 
                                 </tr>
                                 <tr>
@@ -650,30 +628,35 @@
     <section id="footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 col-sm-12 my-3">
+
+                <div class="col-md-12 col-sm-12 my-3 pb-3 link-hover shadow-lg">
                     <a href="http://www.qam.az/az/main"><img src="img/qa.png" alt="" class="img-fluid w-100"></a>
                 </div>
 
-                <div class="col-md-4 col-sm-12"><a href="https://president.az/"><img src="img/baner1.png" alt="" class="img-fluid w-100"></a></div>
-                <div class="col-md-4 col-sm-12"><a href="http://heydaraliyev.preslib.az/"><img src="img/HE.png" alt=""
-                            class="img-fluid w-100"></a></div>
-                <div class="col-md-4 col-sm-12"><a href="http://www.heydar-aliyev-foundation.org/az"><img src="img/HF.png"
+                <div class="col-md-4 col-sm-12 pl-2 link-hover shadow-lg"><a href="https://president.az/"><img src="img/baner1.png"
                             alt="" class="img-fluid w-100"></a></div>
+                <div class="col-md-4 col-sm-12 pl-2 link-hover shadow-lg"><a href="http://heydaraliyev.preslib.az/"><img
+                            src="img/HE.png" alt="" class="img-fluid w-100"></a></div>
+                <div class="col-md-4 col-sm-12 pl-2 link-hover shadow-lg"><a href="http://www.heydar-aliyev-foundation.org/az"><img
+                            src="img/HF.png" alt="" class="img-fluid w-100"></a></div>
+
+
 
 
             </div>
         </div>
     </section>
     <!-- Bottom Section -->
-    <section class="mt-3 bg-secondary">
+    <section id="bottom" class="mt-3 bg-secondary">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12 text-center">
                     <a href="">
                         <p>© 2013 Azərbaycan Respublikası Dağlıq Qarabağ bölgəsinin Azərbaycanlı İcması </p>
+
                     </a>
-                    <p>Rabite nazirlyi</p>
-                    <h3>Melimmat merkezi</h3>
+                    <p>Rabite Nazirlyi</p>
+                    <h3>Melumat merkezi</h3>
 
                 </div>
             </div>
@@ -693,10 +676,14 @@
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script> -->
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
         crossorigin="anonymous"></script>
-    <script src="js/navbar.js"></script>
-    <script src="../js/main.js"></script>
+
+    <script src="js/bootstrap-4-hover-navbar.js"></script>
+
 </body>
 
 </html>
